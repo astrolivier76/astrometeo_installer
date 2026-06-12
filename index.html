@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installateur Astro-Météo ESP32</title>
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f0f2f5; text-align: center; padding: 40px 20px; }
+        .container { background: white; max-width: 500px; margin: 0 auto; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h1 { color: #1a73e8; font-size: 24px; margin-bottom: 10px; }
+        p { color: #5f6368; line-height: 1.5; }
+        .status { margin: 20px 0; padding: 10px; background: #e8f0fe; border-radius: 6px; color: #1967d2; font-size: 14px; }
+        esp-web-install-button { margin-top: 25px; display: block; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Station Astro-Météo ESP32</h1>
+    <p>Version du firmware : <strong>9.0.1</strong></p>
+    <p>Cette interface va installer automatiquement le programme ainsi que les pages web sur votre ESP32 vierge.</p>
+    
+    <div class="status">
+        💡 Utilisez <strong>Google Chrome</strong> ou <strong>Microsoft Edge</strong> avec votre ESP32 branché en USB.
+    </div>
+
+    <esp-web-install-button manifest="manifest.json">
+        <button slot="activate" style="padding: 14px 28px; font-size: 16px; font-weight: bold; background: #1a73e8; color: white; border: none; border-radius: 24px; cursor: pointer; box-shadow: 0 2px 6px rgba(26,115,232,0.3);">
+            Installer le Firmware
+        </button>
+    </esp-web-install-button>
+</div>
+
+</body>
+</html>
