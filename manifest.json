@@ -1,0 +1,15 @@
+{
+  "name": "Station Astro-Meteo ESP32",
+  "version": "9.0.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "bootloader_dio_80m.bin", "offset": 4096 },
+        { "path": "esp32AstroV9.0.1_finale.ino.partitions.bin", "offset": 32768 },
+        { "path": "esp32AstroV9.0.1_finale.ino.bin", "offset": 65536 },
+        { "path": "spiffs.bin", "offset": 2686976 }
+      ]
+    }
+  ]
+}
