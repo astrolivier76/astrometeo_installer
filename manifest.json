@@ -1,13 +1,13 @@
 {
   "name": "AstroMeteo ESP2 ALPACA",
-  "version": "9.0.5f",
+  "version": "9.0.5i",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "esp32AstroV9_0_5_finale_alpaca.ino.merged.bin",
+          "path": "esp32AstroV9_0_5i_finale_alpaca.ino.merged.bin",
           "offset": 0
         }
       ]
