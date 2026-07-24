@@ -7,7 +7,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "esp32AstroV9_0_5i_finale_alpaca.ino.merged.bin",
+          "path": "esp32AstroV9_0_5m_finale_alpaca.ino.merged.bin",
           "offset": 0
         }
       ]
