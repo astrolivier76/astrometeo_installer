@@ -1,6 +1,6 @@
 {
   "name": "AstroMeteo ESP2 ALPACA",
-  "version": "9.0.5i",
+  "version": "9.0.7b",
   "new_install_prompt_erase": true,
   "builds": [
     {
